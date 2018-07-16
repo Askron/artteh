@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+body{
+	font-family:"Roboto";
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+	background-color:#292929;
+}
+
+.navbar{
+	height:65px;
+	background-color:rgba(255, 255, 255, 0);
+	border:none;
+	z-index:1;
+}
+
+.navbar-header{
+	height:65px;
+}
+
+.navbar-brand{
+	height:65px;
+	padding:0px;
+}
+
+.navbar-brand > img{
+	width:auto;
+	height:65px;
+	margin-left:50px;
+}
+
+.navbar .nav > li > a{
+	height:65px;
+	padding-top:25px;
+	font-size:10pt;
+	color:white;
+	background-color:rgba(255, 255, 255, 0);
+}
+
+.navbar .nav > li > a:hover{
+	height:65px;
+	color:white;
+	background-color:rgba(255, 255, 255, 0);
+}
+
+.navbar .nav > li > a:focus{
+	height:65px;
+	color:white;
+	background-color:rgba(255, 255, 255, 0);
+}
+
+.navbar .nav > .active > a{
+	height:65px;
+	color:white;
+	background-color:rgba(255, 255, 255, 0);
+}
+
+.navbar .nav > .active > a:hover{
+	height:65px;
+	color:white;
+	background-color:rgba(255, 255, 255, 0);
+}
+
+.navbar .nav > .active > a:focus{
+	height:65px;
+	color:white;
+	background-color:rgba(255, 255, 255, 0);
+}
+
+.navbar .nav > .dropdown > a{
+	height:65px;
+	color:white;
+	background-color:rgba(255, 255, 255, 0);
+}
+
+.navbar .nav > .dropdown > a:hover{
+	height:65px;
+	color:white;
+	background-color:rgba(255, 255, 255, 0);
+}
+
+.navbar .nav > .dropdown > a:focus{
+	height:65px;
+	color:white;
+	background-color:rgba(255, 255, 255, 0);
+}
+
+.navbar .navbar-text{
+	margin-top:12px;
+	margin-left:50px;
+	margin-right:20px;
+}
+
+.navbarText1{
+	height:65px;
+	color:white;
+	background-color:rgba(255, 255, 255, 0);
+}
+
+.navbar .navbar-text>i{
+	color:white;
+}
+
+.navbar .navbar-text>.btn{
+	color:white;
+	text-decoration:underline;
+	background-color:rgba(255, 255, 255, 0);
+}
+
+.navbar .navbar-text>.btn:hover{
+	color:white;
+	background-color:rgba(255, 255, 255, 0);
+}
+
+.navbar .navbar-text>.btn:focus{
+	color:white;
+	background-color:rgba(255, 255, 255, 0);
+	outline:none;
+}
+
+.navbarText2{
+	height:65px;
+	color:white;
+	background-color:rgba(255, 255, 255, 0);
+}
+
+.head{
+	font-size:10pt;
+	padding-top:150px;
+	padding-bottom:50px;
+	color:white;
+	text-align:center;
+	background:url('../img/headback.jpg') top center no-repeat;
+	background-size:cover;
+}
+
+.headTitle{
+	font-size:32pt;
+	font-weight:500;
+}
+
+.headLink{
+	color:white;
+}
+
+.headLink:hover{
+	color:white;
+}
+
+.headLink:focus{
+	color:white;
+}
+
+.categoriesWrap{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	position:absolute;
+	top:350px;
+	width:100%;
+	height:auto;
+	z-index:1;
+}
+
+.categories{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:95%;
+	height:auto;
+	background-color:#292929;
+	border-radius:20px;
+}
+
+.categoriesBtn{
+	color:white;
+	font-size:10pt;
+	font-weight:500;
+	margin:0px 10px;
+	padding:5px 25px;
+	border-radius:20px;
+	background-color:rgba(0,0,0,0);
+	border:none;
+}
+
+.categoriesBtn:focus{
+	outline:none;
+}
+
+.categoriesBtnActive{
+	border:2px #47b475 solid;
+}
+
+.blockLine{
+	display:flex;
+	justify-content:flex-start;
+	align-items:center;
+}
+
+.block{
+	position:relative;
+	top:100px;
+	width:25%;
+	margin:0px;
+	padding:0px;
+	background-size:100% 100%;
+	opacity:0;
+}
+
+.blockInner{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0.3);
+	opacity:0;
+}
+
+.blockInner:hover{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.3);
+	opacity:1;
+}
+
+.blockInnerDisable{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.5);
+}
+
+.blockTitle{
+	width:100%;
+	text-align:center;
+	color:white;
+	font-size:36pt;
+	font-weight:300;
+}
+
+.blockTitleDisable{
+	width:100%;
+	text-align:center;
+	color:transparent;
+	font-size:36pt;
+	font-weight:300;
+}
+
+.blockPretitle{
+	width:100%;
+	text-align:center;
+	color:white;
+	font-size:12pt;
+}
+
+.blockPretitleDisable{
+	width:100%;
+	text-align:center;
+	color:transparent;
+	font-size:12pt;
+}
+
+.footer{
+	color:white;
+	text-align:center;
+	background-color:#292929;
+}
+
+.footerLogo{
+	height:100px;
+	margin:10px 0px;
+}
+
+.footerText1{
+	height:65px;
+	color:white;
+	background-color:rgba(255, 255, 255, 0);
+}
+
+.footer .btn{
+	color:white;
+	text-decoration:underline;
+	background-color:rgba(255, 255, 255, 0);
+}
+
+.footer .btn:hover{
+	color:white;
+	background-color:rgba(255, 255, 255, 0);
+}
+
+.footer .btn:focus{
+	color:white;
+	background-color:rgba(255, 255, 255, 0);
+	outline:none;
+}

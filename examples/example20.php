@@ -1,0 +1,5 @@
+<div class="block" style="background-image:url('img/profile20/1.jpg');"><button class="blockBtn" type="button" data-toggle="modal" data-target="#imgZoom1"></button></div>
+<div class="block" style="background-image:url('img/profile20/2.jpg');"><button class="blockBtn" type="button" data-toggle="modal" data-target="#imgZoom2"></button></div>
+<div class="block" style="background-image:url('img/profile20/3.jpg');"><button class="blockBtn" type="button" data-toggle="modal" data-target="#imgZoom3"></button></div>
+<div class="block" style="background-image:url('img/profile20/4.jpg');"><button class="blockBtn" type="button" data-toggle="modal" data-target="#imgZoom4"></button></div>
+<div class="block" style="background-image:url('img/profile20/5.jpg');"><button class="blockBtn" type="button" data-toggle="modal" data-target="#imgZoom5"></button></div>
